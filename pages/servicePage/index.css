@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.main-container {
+  background: conic-gradient(from -38deg at 72.08% 78.43%, rgba(28, 146, 255, 0) 0deg, rgba(255, 255, 255, 0.35) 360deg);
+  display: grid;
+  grid-template-columns: 477px 477px;
+  align-items: center;
+  gap: 40px;
+}
+.main-container h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 158%;
+}/*# sourceMappingURL=index.css.map */
