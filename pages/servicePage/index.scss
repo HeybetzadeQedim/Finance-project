@@ -1,21 +1,102 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 .main-container {
-    background: conic-gradient(from -38deg at 72.08% 78.43%, rgba(28, 146, 255, 0.00) 0deg, rgba(255, 255, 255, 0.35) 360deg);
-    display: grid;
-    grid-template-columns: 477px 477px;
-    align-items: center;
-    gap: 40px;
+  .first-container {
+    position: relative;
+    padding: 81px 233px 260px 80px;
+    @media screen and (max-width: 1024px) {
+      padding: 54px 39px 129px 40px;
+    }
 
-    
-  h1 {
-    color: #000;
-    font-family: Poppins;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 158%;
+    .grid-container {
+      display: grid;
+      grid-template-columns: 477px 477px;
+      column-gap: 173px;
+      row-gap: 40px;
+      @media screen and (max-width: 1024px) {
+        grid-template-columns: 365px 370px;
+        column-gap: 20px;
+      }
+      @media screen and (max-width: 768px) {
+        grid: none;
+        flex-direction: column;
+      }
+
+      h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 158%;
+        @media screen and (max-width: 1024px) {
+          font-size: 32px;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 36px;
+        }
+      }
+      .box-text {
+        margin-top: 40px;
+
+        img {
+          margin-bottom: 16px;
+          width: 80px;
+          height: 80px;
+        }
+        h2 {
+          margin-bottom: 12px;
+          color: #1f262e;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 158%;
+          @media screen and (max-width: 1024px) {
+            font-size: 22px;
+          }
+        }
+        p {
+          color: #000;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 158%;
+          @media screen and (max-width: 768px) {
+          }
+        }
+      }
+    }
   }
-  .box-text {
-    
+  .second-container {
+    position: relative;
+    padding: 107px 79px 156px 89px;
+    border: 1.025px solid #757575;
+    background: #190422;
+      h3 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130.5%;
+      }
+      .flex-container-2 {
+        img {
+          width: 205px;
+          height: 65px;
+        }
+        .image-1 {
+          position: absolute;
+          left: 700px;
+          .image-2 {
+            width: 414px;
+            height: 612px;
+            
+          }
+        }
+          
+        }
   }
 }
+
