@@ -77,10 +77,23 @@
   line-height: 158%;
 }
 .main-container .second-container {
+  margin-top: 250px;
   position: relative;
   padding: 107px 79px 156px 89px;
   border: 1.025px solid #757575;
   background: #190422;
+}
+@media screen and (max-width: 1024px) {
+  .main-container .second-container {
+    padding: 56px 20px 38px 41px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-container .second-container {
+    padding: 24px 20px 199px 18px;
+    height: 621px;
+    flex-direction: column;
+  }
 }
 .main-container .second-container h3 {
   color: #fff;
@@ -90,15 +103,40 @@
   font-weight: 600;
   line-height: 130.5%;
 }
+@media screen and (max-width: 1024px) {
+  .main-container .second-container h3 {
+    width: 463px;
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-container .second-container h3 {
+    margin-left: 20px;
+    width: 359px;
+    font-size: 36px;
+  }
+}
 .main-container .second-container .flex-container-2 img {
   width: 205px;
   height: 65px;
 }
-.main-container .second-container .flex-container-2 .image-1 {
+.main-container .second-container .image-1 {
   position: absolute;
-  left: 700px;
-}
-.main-container .second-container .flex-container-2 .image-1 .image-2 {
+  right: 79px;
+  bottom: 0;
   width: 414px;
   height: 612px;
+}
+@media screen and (max-width: 1024px) {
+  .main-container .second-container .image-1 {
+    width: 273px;
+    height: 402px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-container .second-container .image-1 {
+    right: 100px;
+    width: 258px;
+    height: 386px;
+  }
 }/*# sourceMappingURL=index.css.map */

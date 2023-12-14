@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.main-container {
+  padding: 41px 104px 81px 103px;
+  background: conic-gradient(
+    from -38deg at 72.08% 78.43%,
+    rgba(28, 105, 255, 0) 0deg,
+    rgba(255, 255, 255, 0.35) 360deg);
+    @media screen and (max-width: 1024px) {
+    padding: 40px 137px 50px 138px;
+    }
+    
+    h1 {
+        margin-bottom: 40px;
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 158%;
+      }
+    
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .image-box {
+        width: 40px;
+        height: 40px;
+        }
+        .box-text {
+          padding: 24px;
+          width: 522px;
+          border-radius: 28px;
+          background: #fff;
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+          @media screen and (max-width: 1024px) {
+            width: 560px;
+          }
+          @media screen and (max-width: 768px) {
+          width: 355px;
+          height: 454px;
+          }
+          h2 {
+            margin-bottom: 16px;
+            color: #000;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 158%;
+          }
+          p {
+            margin-bottom: 10px;
+            width: 474px;
+            color: #000;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 158%;
+            @media screen and (max-width: 1024px) {
+             width: 512px;
+            }
+            
+          }
+          .flex-container {
+            display: flex;
+            align-items: center;
+            .image-1 {
+              border-radius: 50%;
+            }
+            .text-box {
+              margin-left: 20px;
+              margin-top: 10px;
+              h3 {
+                color: #000;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 158%;
+              }
+              p {
+                color: #000;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 158%;
+              }
+            }
+            .image-container {
+              .image-3 {
+                margin-left: 270px;
+              }
+            }
+          }
+        }
+        .box-text-2 {
+          padding: 24px;
+          width: 522px;
+          border-radius: 28px;
+          background: #fff;
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+          @media screen and (max-width: 1024px) {
+        display: none;
+          }
+            h2 {
+                margin-bottom: 16px;
+                color: #000;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 158%;
+              }
+              p {
+                margin-bottom: 10px;
+                width: 474px;
+                color: #000;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 158%;
+              }
+              .flex-container {
+                display: flex;
+                align-items: center;
+                .image-1 {
+                  border-radius: 50%;
+                }
+                .text-box {
+                  margin-left: 20px;
+                  margin-top: 10px;
+                  h3 {
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 158%;
+                  }
+                  p {
+                    color: #000;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 158%;
+                  }
+                }
+                .image-container {
+                  .image-3 {
+                    margin-left: 270px;
+                  }
+                }
+              }
+            }
+
+            
+ 
+      }
+    } 
